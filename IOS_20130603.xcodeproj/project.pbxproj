@@ -21,6 +21,7 @@
 		023AACD4175C623400AA51F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023AACB5175C623300AA51F5 /* Foundation.framework */; };
 		023AACDC175C623400AA51F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 023AACDA175C623400AA51F5 /* InfoPlist.strings */; };
 		023AACDF175C623400AA51F5 /* IOS_20130603Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 023AACDE175C623400AA51F5 /* IOS_20130603Tests.m */; };
+		023AACED175C632200AA51F5 /* aaa.m in Sources */ = {isa = PBXBuildFile; fileRef = 023AACEC175C632200AA51F5 /* aaa.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		023AACDB175C623400AA51F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		023AACDD175C623400AA51F5 /* IOS_20130603Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOS_20130603Tests.h; sourceTree = "<group>"; };
 		023AACDE175C623400AA51F5 /* IOS_20130603Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOS_20130603Tests.m; sourceTree = "<group>"; };
+		023AACEB175C632200AA51F5 /* aaa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aaa.h; sourceTree = "<group>"; };
+		023AACEC175C632200AA51F5 /* aaa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aaa.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		023AACB9175C623300AA51F5 /* IOS_20130603 */ = {
 			isa = PBXGroup;
 			children = (
+				023AACEB175C632200AA51F5 /* aaa.h */,
+				023AACEC175C632200AA51F5 /* aaa.m */,
 				023AACC2175C623300AA51F5 /* AppDelegate.h */,
 				023AACC3175C623300AA51F5 /* AppDelegate.m */,
 				023AACBA175C623300AA51F5 /* Supporting Files */,
@@ -263,6 +268,7 @@
 			files = (
 				023AACC0175C623300AA51F5 /* main.m in Sources */,
 				023AACC4175C623300AA51F5 /* AppDelegate.m in Sources */,
+				023AACED175C632200AA51F5 /* aaa.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
